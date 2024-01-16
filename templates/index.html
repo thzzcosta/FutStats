@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Stats</title>
+</head>
+<body>
+    <form method="post" action="/">
+        <label for="team1">Home Team:</label>
+        <input type="text" name="team1" required><br>
+
+        <label for="team2">Away Team:</label>
+        <input type="text" name="team2" required><br>
+
+        <label for="corners_home">General corners from the home team's last 10 games:</label>
+        <input type="text" name="corners_home" required><br>
+
+        <label for="corners_away">General corners from the away team's last 10 games:</label>
+        <input type="text" name="corners_away" required><br>
+
+        <label for="home_score">Corners scored in the last 10 games for the home team:</label>
+        <input type="text" name="home_score" required><br>
+
+        <label for="home_concede">Corners conceded in the last 10 games by the home team:</label>
+        <input type="text" name="home_concede" required><br>
+
+        <label for="away_score">Corners scored in the last 10 games for the away team:</label>
+        <input type="text" name="away_score" required><br>
+
+        <label for="away_concede">Corners conceded in the last 10 games by the away team:</label>
+        <input type="text" name="away_concede" required><br>
+
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
